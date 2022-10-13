@@ -1,4 +1,21 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="" routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+        </li>
+        <li class="nav-item">
+            <a href="" routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+        </li>
+    </ul>
+</nav>
+
 <h1 class="text-center">Angular-Frontend</h1>
 <div class="container">
-    <app-employee-list></app-employee-list>
+    <router-outlet></router-outlet>
 </div>
+
+<footer  class = "footer">
+    <div class="container">
+        <span>All rights are reserved @2022</span>
+    </div>
+</footer>
